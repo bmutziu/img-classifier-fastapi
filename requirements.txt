@@ -1,5 +1,5 @@
 fastapi~=0.75.0
-uvicorn==0.17.6
+uvicorn[standard]
 wget==3.2
 numpy==1.22.4
 pydantic==1.9.1
@@ -11,3 +11,5 @@ tensorflow
 locust
 tensorflow_hub
 pytest
+gunicorn==20.1.0
+loguru
